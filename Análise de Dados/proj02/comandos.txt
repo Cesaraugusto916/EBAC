@@ -1,0 +1,13 @@
+# Verifico as permissões atuais do arquivo calculadora.sh
+ls -l calculadora.sh
+
+# Altero as permissões do arquivo para torná-lo executável para o dono, 
+# permitindo apenas leitura para os outros
+chmod 744 calculadora.sh
+
+# Verifico as permissões após a alteração
+ls -l calculadora.sh
+
+# Executo o arquivo calculadora.sh
+./calculadora.sh
+
